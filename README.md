@@ -1,7 +1,20 @@
 # redux-with-immer
 
+
 ## Overview
 This project focuses on demonstrating the integration of Immer with Redux to streamline state management and improve the development experience. It also showcases the use of Redux Thunk middleware for handling asynchronous operations within Redux, enhancing the versatility of state management in complex applications.
+
+## Setup
+
+- clone the project
+
+- run `npm i`
+
+- start the json server  =>  `json-server --watch db.json`
+
+- run  `node index.js`
+
+- for typescript compilation =>  `tsc -w`
 
 ## Concepts Learned
 - **Store**: Understanding the role of the Redux store in managing the application state.
@@ -14,3 +27,4 @@ This project focuses on demonstrating the integration of Immer with Redux to str
 
 ## Usage
 To use this project effectively and understand the concepts mentioned above, follow the code and examples provided in the source files.
+
